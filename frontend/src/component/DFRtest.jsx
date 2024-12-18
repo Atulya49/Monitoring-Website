@@ -37,7 +37,7 @@ function DFRtest() {
 
     try {
       const response = await axios.post(
-        "/api/v1/cpc/cpctest", // Update with your actual API endpoint
+        "https://monitoring-website.onrender.com/api/v1/cpc/cpctest", // Update with your actual API endpoint
         formData
       );
 

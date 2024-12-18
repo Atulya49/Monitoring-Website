@@ -34,7 +34,7 @@ function MAAGprod() {
 
     try {
       const response = await axios.post(
-        "/api/v1/maag/maaguat", 
+        "https://monitoring-website.onrender.com/api/v1/maag/maaguat", 
         formData
       );
 
