@@ -37,7 +37,7 @@ function OPDprod() {
 
     try {
       const response = await axios.post(
-        "https://monitoring-website.onrender.comapi/v1/opw/opwprod", // Update with your actual API endpoint
+        "api/v1/opw/opwprod", // Update with your actual API endpoint
         formData
       );
 

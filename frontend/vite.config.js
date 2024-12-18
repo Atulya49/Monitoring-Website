@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy:{
       //'/api': 'http://localhost:8000'
-      //'/api': 'https://monitoring-website.onrender.com'
+      '/api': 'https://monitoring-website.onrender.com'
     },
   },
   plugins: [react()],

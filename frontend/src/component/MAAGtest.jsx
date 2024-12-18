@@ -31,7 +31,7 @@ function MAAGtest() {
     setSubmitStatus({ loading: true, success: false, error: null });
 
     try {
-      const response = await axios.post("https://monitoring-website.onrender.comapi/v1/maag/maagdev", formData);
+      const response = await axios.post("api/v1/maag/maagdev", formData);
 
       setSubmitStatus({
         loading: false,
